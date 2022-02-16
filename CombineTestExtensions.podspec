@@ -4,6 +4,7 @@ Pod::Spec.new do |s|
 		s.summary         	= "A set of tools making writing tests for Apple's Combine framework easy. Inspired by RxTest and RxBlocking."
 	    s.homepage        	= "https://github.com/industrialbinaries/CombineTestExtensions"
 	    s.license           = { type: 'MIT', file: 'LICENSE' }
+		s.author 			= { 'industrialbinaries' => 'hello@industrial-binaries.co' }
 	    s.ios.deployment_target = '13.0'
 	    s.osx.deployment_target = '10.15'
 	    s.tvos.deployment_target = '13.0'
